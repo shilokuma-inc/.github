@@ -4,7 +4,9 @@
 
 ### [Ninjacord](https://github.com/shilokuma-inc/ninjacord-ios)
 
-#### App Store
+<img width="1200" height="628" alt="リンクカードプレビュー画像 - 1200x628" src="https://github.com/user-attachments/assets/7b3b06aa-df51-4d89-9e75-1c0a5b0e6cac" />
+
+<img width="200" height="200" alt="qr-code" src="https://github.com/user-attachments/assets/b1590527-37c0-490a-9145-35d257a0cdde" />
 
 <a href="https://apps.apple.com/jp/app/ninja-cord/id6498937487"><img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download Ninjacord on the App Store" width="120"></a>
 
