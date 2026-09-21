@@ -1,0 +1,33 @@
+name: Branch Cleanup
+
+on:
+  schedule:
+    # 毎日 JST 9:00 (UTC 0:00) に実行
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  delete-merged-branches:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Delete merged branches
+        uses: hmarr/auto-delete-branch-action@v4.0.0
+        with:
+          github-token: ${{ github.token }}
+
+  delete-stale-branches:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Delete stale branches
+        uses: actions/stale@v9
+        with:
+          repo-token: ${{ github.token }}
+          stale-branch-label: 'stale'
+          days-before-stale: 30
+          days-before-close: 7
+          delete-branch: true
+          operations-per-run: 30
