@@ -54,7 +54,7 @@ Discord に bot 経由でメッセージを送信できる iOS アプリ
 
 ### [Quick Key Assistant](https://github.com/shilokuma-inc/quick-key-assistant-macos)
 
-macOS アプリ
+キーボードショートカットを確認できるアプリ（macOS）
 
 <a href="https://apps.apple.com/jp/app/quick-key-assistant/id6502866822"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us" alt="Download Quick Key Assistant on the Mac App Store" width="156"></a>
 
