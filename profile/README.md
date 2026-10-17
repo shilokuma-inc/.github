@@ -17,8 +17,7 @@ Discord に bot 経由でメッセージを送信できる iOS アプリ
 | branch \ workflow | Build | Upload |
 | --- | --- | --- |
 | `master` | [![Build/master](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/build-master.yml/badge.svg?branch=master)](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/build-master.yml) | – |
-| `develop` | [![Build/develop](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/build-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/build-develop.yml) | [![Upload/develop](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/upload-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/upload-develop.yml) |
-| `release/**` | – | [![Upload/release](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/upload-release.yml/badge.svg)](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/upload-release.yml) |
+| `develop` | [![Build/develop](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/build-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/build-develop.yml) | [![Upload/develop](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/upload.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/ninjacord-ios/actions/workflows/upload.yml) |
 
 ---
 
@@ -33,7 +32,7 @@ Discord に bot 経由でメッセージを送信できる iOS アプリ
 | branch \ workflow | Build | Archive | Upload |
 | --- | --- | --- | --- |
 | `main` | [![Build/main](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/build-main.yml/badge.svg?branch=main)](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/build-main.yml) | [![Archive/main](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/archive-main.yml/badge.svg?branch=main)](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/archive-main.yml) | – |
-| `develop` | [![Build/develop](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/build-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/build-develop.yml) | – | [![Upload/develop](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/upload-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/upload-develop.yml) |
+| `develop` | [![Build/develop](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/build-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/build-develop.yml) | – | [![Upload/develop](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/upload.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/prime-pick-ios/actions/workflows/upload.yml) |
 
 ---
 
@@ -47,8 +46,7 @@ Discord に bot 経由でメッセージを送信できる iOS アプリ
 
 | branch \ workflow | Build | Upload |
 | --- | --- | --- |
-| `develop` | [![Build/develop](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/build-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/build-develop.yml) | [![Upload/develop](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/upload-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/upload-develop.yml) |
-| `release/**` | – | [![Upload/release](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/upload-release.yml/badge.svg)](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/upload-release.yml) |
+| `develop` | [![Build/develop](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/build-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/build-develop.yml) | [![Upload/develop](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/upload.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/one-tone-apple/actions/workflows/upload.yml) |
 
 ---
 
@@ -60,9 +58,9 @@ Discord に bot 経由でメッセージを送信できる iOS アプリ
 
 #### Status
 
-| branch \ workflow | Archive | Release |
+| branch \ workflow | Archive | Upload |
 | --- | --- | --- |
-| `develop` | [![Archive/develop](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/archive-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/archive-develop.yml) | [![Release/develop](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/release-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/release-develop.yml) |
+| `develop` | [![Archive/develop](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/archive-develop.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/archive-develop.yml) | [![Upload/develop](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/upload.yml/badge.svg?branch=develop)](https://github.com/shilokuma-inc/quick-key-assistant-macos/actions/workflows/upload.yml) |
 
 ---
 
@@ -78,14 +76,3 @@ Unity 製の iOS ゲーム
 | --- | --- | --- | --- |
 | `develop` | [![Build/develop](https://github.com/shilokuma-inc/blanche-de-noel-ios/actions/workflows/build-develop.yml/badge.svg)](https://github.com/shilokuma-inc/blanche-de-noel-ios/actions/workflows/build-develop.yml) | [![Archive/develop](https://github.com/shilokuma-inc/blanche-de-noel-ios/actions/workflows/archive-develop.yml/badge.svg)](https://github.com/shilokuma-inc/blanche-de-noel-ios/actions/workflows/archive-develop.yml) | [![Release/develop](https://github.com/shilokuma-inc/blanche-de-noel-ios/actions/workflows/release-develop.yml/badge.svg)](https://github.com/shilokuma-inc/blanche-de-noel-ios/actions/workflows/release-develop.yml) |
 
----
-
-### [Template App](https://github.com/shilokuma-inc/template-app-ios)
-
-#### Status
-
-| workflow | 実行トリガー | status |
-| --- | --- | --- |
-| [Build](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/build.yml) | すべてのブランチへの push / PR | [![Build](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/build.yml/badge.svg)](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/build.yml) |
-| [Archive](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/archive.yml) | `main` への push | [![Archive](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/archive.yml/badge.svg)](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/archive.yml) |
-| [Upload](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/upload.yml) | `develop` / `release/**` への push | [![Upload](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/upload.yml/badge.svg)](https://github.com/shilokuma-inc/template-app-ios/actions/workflows/upload.yml) |
